@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d24ad27c-3ea4-4f0c-8e39-cea655fdb930" name="Changes" comment="Create class attributes">
       <change beforePath="$PROJECT_DIR$/src/main/java/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Appointment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PatientRegistrationSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
