@@ -66,4 +66,5 @@ public class Patient {
     public void setSsn(int ssn) {
         this.ssn = ssn;
     }
+
 }
