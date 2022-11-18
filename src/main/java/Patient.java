@@ -67,4 +67,7 @@ public class Patient {
         this.ssn = ssn;
     }
 
+    public void printPatients() {
+        System.out.println("Here are your appointments");
+    }
 }
