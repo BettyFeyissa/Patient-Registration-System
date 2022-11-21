@@ -1,46 +1,36 @@
 public class Patient {
-    //Create class attributes
-    String name;
-    int insuranceId;
-    String description;
+    String firstName;
+
+    String lastName;
+
+    String SSN;
+
     String address;
-    String emergencyContactInfo;
-    int ssn;
 
+    String insuranceID;
 
-    //create a constructor
-    public Patient(String name, int insuranceId, String description, String address, String emergencyContactInfo, int ssn) {
-        this.name = name;
-        this.insuranceId = insuranceId;
-        this.description = description;
-        this.address = address;
-        this.emergencyContactInfo = emergencyContactInfo;
-        this.ssn = ssn;
-
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getName() {
-        return name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getLastName() {
+        return lastName;
     }
 
-    public int getInsuranceId() {
-        return insuranceId;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public void setInsuranceId(int insuranceId) {
-        this.insuranceId = insuranceId;
+    public String getSSN() {
+        return SSN;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
+    public void setSSN(String SSN) {
+        this.SSN = SSN;
     }
 
     public String getAddress() {
@@ -51,23 +41,23 @@ public class Patient {
         this.address = address;
     }
 
-    public String getEmergencyContactInfo() {
-        return emergencyContactInfo;
+    public String getInsuranceID() {
+        return insuranceID;
     }
 
-    public void setEmergencyContactInfo(String emergencyContactInfo) {
-        this.emergencyContactInfo = emergencyContactInfo;
+    public Patient(String firstName, String lastName, String SSN, String address, String insuranceID) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.SSN = SSN;
+        this.address = address;
+        this.insuranceID = insuranceID;
     }
 
-    public int getSsn() {
-        return ssn;
+    public void setInsuranceID(String insuranceID) {
+        this.insuranceID = insuranceID;
     }
 
-    public void setSsn(int ssn) {
-        this.ssn = ssn;
-    }
-
-    public void printPatients() {
-        System.out.println("Here are your appointments");
+    public void print(){
+        System.out.println("First Name: "+ this.firstName + "\nLast Name: "+ this.lastName + "\nAddress: "+ this.address +"\nSSN: "+ this.SSN +"\nInsuranceId: "+ this.insuranceID);
     }
 }
